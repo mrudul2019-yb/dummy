@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:dummy.helloWorld"
+		"onCommand:extension.purify"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "dummy.helloWorld",
-				"title": "Hello World"
+				"command": "extension.purify",
+				"title": "Censor profanities"
 			}
 		]
 	},
